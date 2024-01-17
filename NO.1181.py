@@ -9,7 +9,7 @@ for  i in range(how_many):
     i=i+1
 word.sort()   
 word.sort(key=len)
-
-for i in range (how_many):
-    print(word[i])
-    i= i+1
+k=0
+while k<i:
+    print(word[k])
+    k= k+1
